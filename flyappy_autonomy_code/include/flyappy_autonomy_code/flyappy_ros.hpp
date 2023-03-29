@@ -24,4 +24,6 @@ class FlyappyRos
     ros::Subscriber sub_game_ended_;  ///< Subscriber for crash detection
 
     Flyappy flyappy_;  ///< ROS-free main code
+    LaserScan laser_scan_;
+    Velocity curr_vel_;
 };
